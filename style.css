@@ -1,0 +1,123 @@
+body {
+  background-image: url('./assets/background.jpg');
+  background-repeat: repeat;
+  font-family: Muli-Black, Arial, Helvetica, sans-serif; 
+}
+
+@font-face {
+  font-family: 'Muli-Black';
+  src: url(./font/Muli-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Muli-Bold';
+  src: url(./font/Muli-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Muli-Regular';
+  src: url(./font/Muli-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Muli-Semi-bold';
+  src: url(./font/Muli-SemiBold.ttf);
+}
+
+.laundrypool-logo {
+  margin: 6% 0 3% 6%;
+}
+
+.laundrypool_coming-soon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.laundrypool__getting-ready h3 {
+  font-size: 43px;
+}
+
+.laundrypool__getting-ready p {
+  font-size: 20px;
+}
+
+.laundrypool_queries {
+  display: flex;
+  flex-direction: column;
+}
+
+.laundrypool_queries h3 {
+  color: #032a4d;
+  font-size: 40px;
+}
+
+.laundrypool_queries input {
+  border: 1px solid #3492b3;
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.laundrypool_queries-input {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.laundrypool_queries label {
+  color: #ffffff;
+  position: absolute;
+  background: #3492b3;
+  padding: 3px 15px;
+  top: -16px;
+  left: 8px;
+  font-size: 15px;
+}
+
+.laundrypool_queries-input img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 7px;
+}
+
+button {
+  background-color: #1f81a5;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  color: white;
+  font-family: 'Muli-Black';
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .laundrypool-logo {
+    margin: 70px auto;
+    display: flex;
+    width: 300px;
+  }
+
+  .laundrypool_coming-soon {
+    flex-direction: column;
+  }
+
+  .laundrypool__getting-ready h3 {
+    font-size: 29px;
+    text-align: center;
+  }
+
+  .laundrypool__getting-ready p {
+    text-align: center;
+  }
+
+  .laundrypool_queries h3 {
+    font-size: 29px;
+    text-align: center;
+  }
+}
