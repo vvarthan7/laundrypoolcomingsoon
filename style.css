@@ -94,9 +94,14 @@ button {
   color: white;
   font-family: 'Muli-Black';
   font-size: 15px;
+  text-align: center;
 }
 
-@media only screen and (max-width: 767px) {
+.laundrypool_queries, footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
   .laundrypool-logo {
     margin: 70px auto;
     display: flex;
@@ -105,6 +110,17 @@ button {
 
   .laundrypool_coming-soon {
     flex-direction: column;
+  }
+
+  .laundrypool__getting-ready {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .laundrypool__getting-ready img {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
   }
 
   .laundrypool__getting-ready h3 {
